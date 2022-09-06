@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 html{
     font-family: Whitney, Arial, Helvetica, sans-serif;
 }
@@ -17,19 +21,15 @@ html{
     width: 5em;
     background-size: cover;
     background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
 }
 ul{
     width: 60%;
-    padding: 0 5em;
     list-style-type: none;
 }
 .flex{
     display:flex;
     justify-content: space-evenly;
-}
-
-li{
-    flex-grow: 10px;
 }
 .btn-2{
     padding: .5em;
@@ -59,6 +59,7 @@ nav{
 /* BANNER */
 .background-banner{
     background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -116,14 +117,17 @@ nav{
 .image1{
     background-size: contain;
     background-image: url("../img/item1.svg");
+    background-repeat: no-repeat;
 }
 .image2{
     background-size: contain;
     background-image: url("../img/item2.svg");
+    background-repeat: no-repeat;
 }
 .image3{
     background-size: contain;
     background-image: url("../img/item3.svg");
+    background-repeat: no-repeat;
 }
 
 /* LAST SECTION */
@@ -141,7 +145,8 @@ nav{
 }
 .img-test{
     background-image: url("../img/item4-big.svg");
-    min-height: 400px;
+    background-repeat: no-repeat;
+    height: 400px;
     background-position: center;
     background-size: cover;
 }
@@ -168,20 +173,24 @@ nav{
     border-bottom: 1px white;
     padding: 1em 0;
     /* debug */
-    background-color: black;
+    background-color: #23272A;
 }
 .footer-social{
-    width: 40%;
+    padding: ;
+    width: 30%;
     /* debug */
     min-height: 300px;
-    background-color: plum;
+}
+.footer-social h3{
+    color: #6E87D7;
+    padding: 1em;
+}
+#flag{
+    height: 10px;
 }
 .footer-menu{
-    border: dashed 1px rgb(255, 255, 255);
-    width:calc(60% / 4);
-    /* debug */
-    min-height: 300px;
-    background-color: aquamarine;
+    padding: 1em;
+    width:calc(70% / 4);
 }
 .flex2{
     display: flex;
@@ -190,9 +199,14 @@ nav{
     margin-top: 1em;
     justify-content: space-between;
 }
-
-
-
+.footer-menu li{
+    color: white;
+    font-size: 0.8em;
+    padding: 0.5em 0;
+}
+.footer-menu h5{
+    color: #6E87D7;
+}
 
 /* TEST ZONE */
     /* .last-section{
