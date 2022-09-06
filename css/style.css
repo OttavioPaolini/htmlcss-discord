@@ -12,7 +12,7 @@ html{
     padding: .5em 0;
     display:flex;
     justify-content: space-between;
-    color: white;   
+    color: white;
 }
 span{
     padding: 0 1em;
@@ -47,7 +47,7 @@ nav{
 .container{
     width: 80%;
     margin: auto;
-    
+
 }
 
 /* BANNER */
@@ -60,7 +60,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
+    /* min-height: 300px; */
 }
 .banner-text{
     text-align: center;
@@ -74,10 +74,10 @@ nav{
 }
 .btn-b{
     color: white;
-    background-color: black; 
+    background-color: black;
 }
 .btn-w{
-    
+
 }
 /* MAIN */
 
@@ -85,22 +85,35 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
-    background-color: rgb(255, 255, 255);
+    /* min-height: 300px; */
 }
 .blu-square{
-    border: 1px dashed black;
     width: 50%;
-    height: 250px;
-    background-color: cornflowerblue;
+    height: 400px;
 }
 .pink-square{
-    border: 1px dashed black;
+    padding-top: 1em;
+    padding-right: 5em;
+    text-align: start;
     width: 30%;
-    height: 250px;
-    background-color: pink;
+    height: 400px;
 }
-
+.pink-square h2{
+    padding: 1em 0;
+}
+/* IMAGE */
+.image1{
+    background-size: contain;
+    background-image: url("../img/item1.svg");
+}
+.image2{
+    background-size: contain;
+    background-image: url("../img/item2.svg");
+}
+.image3{
+    background-size: contain;
+    background-image: url("../img/item3.svg");
+}
 .row-reverse{
     display: flex;
     flex-direction: row-reverse;
