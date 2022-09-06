@@ -139,9 +139,12 @@ nav{
 }
 
 .green-square{
+    background-image: url("../img/item4-big.svg");
+    background-position: center;
+    background-size: cover;
     width: 80%;
     min-height: 400px;
-    background-color: green;
+    
 }
 
 /* Footer */
