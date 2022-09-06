@@ -170,16 +170,12 @@ nav{
 
 /* Footer */
 .black-container{
-    border-bottom: 1px white;
     padding: 1em 0;
-    /* debug */
     background-color: #23272A;
 }
 .footer-social{
-    padding: ;
     width: 30%;
-    /* debug */
-    min-height: 300px;
+    border-bottom: 1px #323A4B solid; 
 }
 .footer-social h3{
     color: #6E87D7;
@@ -189,6 +185,7 @@ nav{
     height: 10px;
 }
 .footer-menu{
+    border-bottom: #323A4B 1px solid;
     padding: 1em;
     width:calc(70% / 4);
 }
